@@ -1,9 +1,3 @@
-# title: Collage Hacks HTML Showcase
-# description: Preview and source code for HTML examples
-# theme: minima
-# markdown: kramdown
-# exclude: [vendor, Gemfile, Gemfile.lock]
-
 title: Collage Hacks
 description: HTML examples and notes
 remote_theme: just-the-docs/just-the-docs@v0.8.2
