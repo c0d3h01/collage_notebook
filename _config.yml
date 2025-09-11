@@ -1,0 +1,5 @@
+title: Collage Hacks HTML Showcase
+description: Preview and source code for HTML examples
+theme: minima
+markdown: kramdown
+exclude: [vendor, Gemfile, Gemfile.lock]
