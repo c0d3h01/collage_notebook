@@ -1,30 +1,14 @@
 ---
-layout: default
-title: HTML Examples Showcase
+layout: home
+title: HTML Examples
+nav_order: 1
 ---
 
-# HTML Showcase
-
-Browse all HTML examples below. Click to view live.
+A collection of HTML examples. Click any file to open the live page.
 
 <ul>
-  <li><a href="1_about.html">1_about.html</a></li>
-  <li><a href="2_extintlink.html">2_extintlink.html</a></li>
-  <li><a href="3_order.html">3_order.html</a></li>
-  <li><a href="4_table.html">4_table.html</a></li>
-  <li><a href="5_nestedtable.html">5_nestedtable.html</a></li>
-  <li><a href="6_form.html">6_form.html</a></li>
-  <li><a href="7_registration.html">7_registration.html</a></li>
-  <li><a href="8_login.html">8_login.html</a></li>
-  <li><a href="9_bcatable.html">9_bcatable.html</a></li>
-  <li><a href="10_studentsgrade.html">10_studentsgrade.html</a></li>
-  <li><a href="12_tablemerge.html">12_tablemerge.html</a></li>
-  <li><a href="13_hyperlink.html">13_hyperlink.html</a></li>
-  <li><a href="14_inlinecss.html">14_inlinecss.html</a></li>
-  <li><a href="15_index.html">15_index.html</a></li>
-  <li><a href="16_alllists.html">16_alllists.html</a></li>
-  <li><a href="17_college.html">17_college.html</a></li>
-  <li><a href="18_list.html">18_list.html</a></li>
-  <li><a href="21_html_css.html">21_html_css.html</a></li>
-  <li><a href="23_invitation.html">23_invitation.html</a></li>
+  {% assign htmls = site.static_files | where: "extname", ".html" | sort: "path" %}
+  {% for f in htmls %}
+    <li><a href="{{ f.path | relative_url }}">{{ f.name }}</a></li>
+  {% endfor %}
 </ul>
