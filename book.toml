@@ -1,0 +1,5 @@
+[book]
+authors = ["Harshal Sawant"]
+language = "en"
+src = "src"
+title = "Collage lab book"
