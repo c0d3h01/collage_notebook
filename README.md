@@ -1,6 +1,8 @@
-# AWD Practicals Source Codes
+# Practicals Source Codes
 
-Use them to learn, tweak, or just survive the lab sessions without losing your sanity.  
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](https://github.com/c0d3h01/collage_notebook)
 
-> [!NOTE]      
-> If you copy this blindly and your teacher roasts you, that’s between you and your karma.  
+A collection of source codes to help you **learn, experiment, or just survive lab sessions** without losing your mind.  
+
+> [!NOTE]  
+> Copy at your own risk—if your teacher catches you, that’s a **karma problem**, not ours.
