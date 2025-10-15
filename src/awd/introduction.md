@@ -1,6 +1,5 @@
-# Collage lab notebook
+# AWD Practicals Source Codes
 
-***AWD Practicals Source Codes***
 Use them to learn, tweak, or just survive the lab sessions without losing your sanity.  
 
 > !NOTE :
