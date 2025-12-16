@@ -1,16 +1,17 @@
-# 3x3 Table with rowspan and colspan
+# 3x3 Table with Attributes
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>3x3 Table with rowspan and colspan</title>
     <style>
       table {
         border-collapse: separate;
         border: 2px solid black;
+        border-spacing: 5px;
       }
       td {
         border: 1px solid #000;
@@ -20,7 +21,7 @@
     </style>
   </head>
   <body>
-    <h2>3x3 Table Example with cellspacing,cellpadding,rowspan,colspan</h2>
+    <h2>3x3 Table Example with cellspacing, cellpadding, rowspan, colspan</h2>
     <table border="1" cellspacing="5" cellpadding="10">
       <tr>
         <td rowspan="2">Row 1 & Row 2<br />Col 1</td>

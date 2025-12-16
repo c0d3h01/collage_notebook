@@ -1,4 +1,4 @@
-# Collage Information
+# College Information (Classes)
 
 ```html
 <!DOCTYPE html>

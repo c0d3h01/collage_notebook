@@ -1,4 +1,4 @@
-# Student Grades
+# Student Grades Table
 
 ```html
 <!DOCTYPE html>

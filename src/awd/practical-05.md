@@ -34,7 +34,6 @@
       <tr>
         <td>Row 1, Col 1</td>
         <td>
-          <!--Nested Table Starts Here-->
           <table class="inner">
             <tr>
               <th>Inner Table - Col 1</th>
@@ -48,7 +47,6 @@
               <td colspan="2">Nested Footer</td>
             </tr>
           </table>
-          <!--Nested Table Ends Here-->
         </td>
       </tr>
     </table>

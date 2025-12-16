@@ -1,6 +1,4 @@
-# Types of Lists in HTML
-
-## HTML
+# HTML List with External CSS
 
 ```html
 <!DOCTYPE html>
@@ -8,7 +6,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Types of Lists in HTML</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="prac15.css" />
   </head>
   <body>
     <h1>HTML List Example</h1>
@@ -29,7 +27,7 @@
       </ol>
     </section>
     <section>
-      <h2>Descriptiton List</h2>
+      <h2>Description List</h2>
       <dl>
         <dt>HTML</dt>
         <dd>A markup language for web pages.</dd>
@@ -50,7 +48,7 @@
           </ul>
         </li>
         <li>
-          Vegtables
+          Vegetables
           <ul>
             <li>Carrot</li>
             <li>Spinach</li>
@@ -61,8 +59,6 @@
   </body>
 </html>
 ```
-
-## CSS
 
 ```css
 body {
@@ -76,7 +72,7 @@ h1 {
 section {
   margin-bottom: 30px;
   padding: 10px;
-  border: 1px solid#ddd;
+  border: 1px solid #ddd;
   border-radius: 6px;
 }
 ul,

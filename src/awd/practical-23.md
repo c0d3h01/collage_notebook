@@ -45,15 +45,15 @@
   <body>
     <div class="card">
       <h1>You're Invited!</h1>
-      <h2>To My Birthday Party🎉</h2>
+      <h2>To My Birthday Party</h2>
       <p><strong>Date:</strong> Saturday, August 10th, 2025</p>
       <p><strong>Time:</strong> 4:00PM - 8:00PM</p>
       <p><strong>Venue:</strong> 123 Party Lane, Happy Town</p>
       <p>There will be music, games, food, and lots of fun!</p>
-      <p>Come celebrate and make memories with me! 🎂🎈</p>
+      <p>Come celebrate and make memories with me!</p>
       <div class="footer">
         Please RSVP by August 5th<br />
-        Contact: (123)456-7890 or email@example.com
+        Contact: (123) 456-7890 or email@example.com
       </div>
     </div>
   </body>

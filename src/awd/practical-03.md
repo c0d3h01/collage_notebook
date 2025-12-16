@@ -1,4 +1,4 @@
-# Extintlink - Links Example
+# Types of Links in HTML
 
 ```html
 <!DOCTYPE html>
@@ -25,25 +25,30 @@
     </style>
   </head>
   <body>
-    <h1>Types of links in html</h1>
-    <h2>External Links</h2>
+    <h1>Types of Links in HTML</h1>
+    <h2>External Link</h2>
     <p>
       Visit
-      <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a> for more
-      information.
+      <a
+        href="[https://www.wikipedia.org](https://www.wikipedia.org)"
+        target="_blank"
+        >Wikipedia</a
+      >
+      for more information.
     </p>
-    <h2>Internal Link</h2>
+
+    <h2>Internal Links</h2>
     <p>Go to the <a href="about.html">About Page</a>.</p>
-    <p style="color:gray;font-size:14px;">
-      (Note: Create a separate file named <code>about.html</code> in the same
-      folder for this link to work.)
+    <p style="color: gray; font-size: 14px;">
+      (Note: Create a separate file named about.html)
     </p>
+
     <h2>Link Within Same Page</h2>
     <p>Jump to the <a href="#bottom">bottom of this page</a>.</p>
-    <section style="height:400px;">
+    <section style="height: 400px;">
       <p>Scroll down to see the anchor target below.</p>
     </section>
-    <h3 id="bottom">Bottom of the page</h3>
+    <h3 id="bottom">Bottom of the Page</h3>
     <p>This is the target for the same-page link.</p>
   </body>
 </html>

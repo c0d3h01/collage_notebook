@@ -1,4 +1,4 @@
-# About Page
+# About Page with Links
 
 ```html
 <!DOCTYPE html>
@@ -15,8 +15,8 @@
   </head>
   <body>
     <h1>About Us</h1>
-    <p>This is the About page. We are learning Html lnks!</p>
-    <p><a href="index.html">Back to home</a></p>
+    <p>This is the About page. We are learning HTML links!</p>
+    <p><a href="index.html">Back to Home</a></p>
   </body>
 </html>
 ```

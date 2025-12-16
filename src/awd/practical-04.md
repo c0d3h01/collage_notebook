@@ -1,11 +1,11 @@
-# Student marks table
+# Student Marks Table
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Student marks table</title>
+    <title>Student Marks Table</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -34,7 +34,6 @@
       .average-row td {
         background-color: #e6f7ff;
         font-weight: bold;
-        text-align: left;
       }
     </style>
   </head>
@@ -68,7 +67,7 @@
       </tr>
       <tr class="average-row">
         <td></td>
-        <td colspan="2">Average of all marks:72.5</td>
+        <td colspan="2">Average of all marks: 72.5</td>
       </tr>
     </table>
   </body>

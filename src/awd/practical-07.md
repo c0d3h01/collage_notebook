@@ -1,4 +1,4 @@
-# User Registration Form
+# Styled Registration Form
 
 ```html
 <!DOCTYPE html>

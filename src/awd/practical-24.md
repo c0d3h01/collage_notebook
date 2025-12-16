@@ -1,0 +1,51 @@
+# CSS Selectors (Universal, Class, ID)
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Selector Demo</title>
+    <link rel="stylesheet" href="prac24.css" />
+  </head>
+  <body>
+    <h1 id="main-heading">Welcome to CSS Selector Demo</h1>
+    <p class="info-text">
+      This paragraph is styled using a <strong>class selector</strong>.
+    </p>
+    <div id="highlight-box">
+      This box is styled using an <strong>ID selector</strong>.
+    </div>
+    <p>
+      This paragraph is affected by the
+      <strong>universal selector</strong> along with others.
+    </p>
+  </body>
+</html>
+```
+
+```css
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.info-text {
+  color: blue;
+  font-size: 18px;
+  margin: 20px;
+}
+#highlight-box {
+  background-color: yellow;
+  color: darkred;
+  padding: 15px;
+  border: 2px solid red;
+  margin: 20px;
+}
+#main-heading {
+  text-align: center;
+  margin: 30px;
+  color: green;
+}
+```
